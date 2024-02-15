@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.NBE.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nbe.refmap.json",
+  "mixins": [
+    "BedMixin",
+    "DimensionTypeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
